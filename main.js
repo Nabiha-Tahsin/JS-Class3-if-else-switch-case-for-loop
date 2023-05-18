@@ -4,10 +4,10 @@
  */
 
 
-// let name = prompt('Name:');
-// let mark = Number( prompt('Your Mark:'));
+let name = prompt('Name:');
+let mark = Number( prompt('Your Mark:'));
 
-/*
+
 console.log('Hi ' + name);
 console.log('Your mark is ' + mark);
 
@@ -46,7 +46,9 @@ else{
     console.log('Your mark cannot be less than 0 and more than 100.');
 }
 
-*/
+
+
+
 
 
 /*
@@ -54,9 +56,13 @@ else{
  * Create a loop that will rotate from 1000 to 300
  */
 
-// for( let i = 1000; i>=300; i--){
-//     console.log(`Loop No ${i}`);
-// }
+
+for( let i = 1000; i>=300; i--){
+    console.log(`Loop No ${i}`);
+}
+
+
+
 
 
 
@@ -66,7 +72,7 @@ else{
  * Find the even and odd numbers from 1 and 1000 through for loop
  */
 
-/*
+
 for (let i = 1; i <= 1000; i++) {
 
   // Even Number
@@ -83,14 +89,17 @@ for (let i = 1; i <= 1000; i++) {
 
 }
 
-*/
+
+
+
+
 
 /*
  * ASSIGNMENT 4
  * Find the number divisible by 7 between 1 and 1000
  */
 
-/*
+
 for(let i = 1; i <= 1000; i++){
 
     if(i % 7 == 0){
@@ -98,7 +107,9 @@ for(let i = 1; i <= 1000; i++){
     }
 
 }
-*/
+
+
+
 
 
 
@@ -108,15 +119,17 @@ for(let i = 1; i <= 1000; i++){
  */
 
 
-// for(let i = 1; i<=1000; i = i + 3){
+for(let i = 1; i<=1000; i = i + 3){
 
-//     console.log(`The number is ${i}`);
+    console.log(`The number is ${i}`);
 
-//     if(i % 11 == 0){
-//         break;
-//     }
+    if(i % 11 == 0){
+        break;
+    }
 
-// }
+}
+
+
 
 
 
@@ -124,7 +137,7 @@ for(let i = 1; i <= 1000; i++){
  * ASSIGNMENT 6
  * Create a loop that rotates 500 times using the for loop where you just pull out the numbers divisible by 3 and 4
  */
-/*
+
 
 for(let i = 1; i <= 500; i++){
 
@@ -144,7 +157,9 @@ for(let i = 1; i <= 500; i++){
     // }
 
 }
-*/
+
+
+
 
 
 /*
@@ -153,7 +168,6 @@ for(let i = 1; i <= 500; i++){
  */
 
 // // for(let i = 10000;){}
-
 
 
 
