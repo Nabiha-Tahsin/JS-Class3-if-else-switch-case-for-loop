@@ -168,14 +168,12 @@ for(let i = 1; i <= 500; i++){
  */
 
 // Rotate the loop 50 times by using the INCREMENT
-
 for(let i = 10000; i < 10050; i++){
     console.log(`The number is ${i}`);
 }
 
 
 // Rotate the loop 50 times by using the DECREMENT
-
 for(let i = 10000; i > 9950; i--){
     console.log(`The number is ${i}`);
 }
